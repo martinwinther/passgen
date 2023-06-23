@@ -1,0 +1,39 @@
+<head>
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+	<title>passGen - Random Password Genrator</title>
+	<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+	<div class="card">
+		<h1>
+			passGen -
+			<span class="title-desc">Your Key to Unbreakable Passwords</span>
+		</h1>
+		<h4>Generate strong, random passwords effortlessly.</h4>
+		<h4>
+			<button id="generate-btn">Generate passwords</button>
+			<div>
+				Password Length : <span id="password-len">12</span>
+				<button id="dec-password">-</button>
+				<button id="inc-password">+</button>
+				<div id="password-strength">
+					<span id="strength-meter">STRONG</span>
+				</div>
+			</div>
+
+			<div id="password-container">
+				<div class="password-box">
+					<span class="password-el">|q=dFjW7Cq}r</span>
+					<button class="copy-btn" id="copy-1">copy</button>
+				</div>
+				<div class="password-box">
+					<span class="password-el">OWIo~;"1#R7L</span>
+					<button class="copy-btn" id="copy-2">copy</button>
+				</div>
+			</div>
+		</h4>
+	</div>
+	<script src="index.js"></script>
+</body>
